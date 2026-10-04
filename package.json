@@ -1,0 +1,25 @@
+{
+  "name": "zepto-mcp-assistant",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol (MCP) integration enabling conversational grocery ordering via Claude Desktop and Zepto",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test:bridge": "npx -y mcp-remote https://mcp.zepto.co.in/mcp",
+    "inspect:tools": "npx -y @modelcontextprotocol/inspector cmd /c npx -y mcp-remote https://mcp.zepto.co.in/mcp"
+  },
+  "keywords": [
+    "model-context-protocol",
+    "mcp",
+    "zepto",
+    "claude-desktop",
+    "conversational-commerce",
+    "llm-tools",
+    "agentic-ai"
+  ],
+  "author": "Prativesh Sharma",
+  "license": "MIT",
+  "devDependencies": {
+    "mcp-remote": "latest"
+  }
+}
