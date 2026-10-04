@@ -127,7 +127,7 @@ zepto-mcp-assistant/
 ├── docs/
 │   ├── ARCHITECTURE.md                 # Deep-dive system architecture & data contracts
 │   ├── DEMO_SCRIPT.md                  # 6–8 minute screen recording script & timeline
-│   └── PRESENTATION_DECK_NOTES.md      # 12-slide academic presentation & speaker notes
+│   └── PRESENTATION_DECK_NOTES.md      # Presentation deck notes & Google Gemini link
 └── scripts/
     └── test_connection.bat             # One-click diagnostic script to verify server connection
 ```
@@ -213,7 +213,7 @@ Completely restart Claude Desktop. The hammer icon in the bottom-right corner wi
 ## Project Documentation
 * 📐 **[System Architecture & Tool Contracts](docs/ARCHITECTURE.md)**: Deep dive into JSON-RPC messages and schema definitions.
 * 🎥 **[Demo Recording Script](docs/DEMO_SCRIPT.md)**: Detailed 6–8 minute screen recording script.
-* 📊 **[12-Slide Presentation Outline](docs/PRESENTATION_DECK_NOTES.md)**: Complete slide-by-slide speaker notes.
+* 📊 **[Interactive Presentation Deck (Gemini)](docs/PRESENTATION_DECK_NOTES.md)**: View the interactive slide deck on [Google Gemini](https://share.gemini.google/2v7A0ewdICO6).
 
 ---
 
