@@ -125,9 +125,12 @@ zepto-mcp-assistant/
 ├── config/
 │   └── claude_desktop_config.example.json  # Sanitized Claude Desktop configuration template
 ├── docs/
-│   ├── ARCHITECTURE.md                 # Deep-dive system architecture & data contracts
-│   ├── DEMO_SCRIPT.md                  # 6–8 minute screen recording script & timeline
-│   └── PRESENTATION_DECK_NOTES.md      # Presentation deck notes & Google Gemini link
+│   ├── assets/
+│   │   ├── live_order_tracking.png         # Live order tracking proof from Zepto web app
+│   │   └── delivered_product_proof.jpg     # Physical delivered product photo
+│   ├── ARCHITECTURE.md                     # Deep-dive system architecture & data contracts
+│   ├── DEMO_SCRIPT.md                      # Concise 2–3 minute presentation script & proof links
+│   └── PRESENTATION_DECK_NOTES.md          # Presentation deck notes & Google Gemini link
 └── scripts/
     └── test_connection.bat             # One-click diagnostic script to verify server connection
 ```
@@ -190,7 +193,17 @@ Completely restart Claude Desktop. The hammer icon in the bottom-right corner wi
 
 ---
 
-## Empirical Test Results
+## Empirical Test Results & Live Proof of Delivery
+
+> ### 🚀 Live Working Demonstration & Verification
+> This project successfully executed an end-to-end, live grocery purchase on Zepto. The order was placed conversatially via Claude Desktop, automatically recovered from a store-selection error, dispatched to a live delivery rider, and delivered directly to the doorstep.
+> 
+> 🎥 **[Watch Live Video Recording on Google Photos](https://photos.app.goo.gl/LBj8j8BLm8uLY1UD7)**
+
+| 1. Live Order Tracking (Zepto Web) | 2. Physical Delivered Product (Doorstep Proof) |
+| :---: | :---: |
+| ![Zepto Live Order Tracking](docs/assets/live_order_tracking.png) | ![Delivered Product Proof](docs/assets/delivered_product_proof.jpg) |
+| **Order ID**: `01a104d8-7a49-7e84-ac42-fe9992e7eeca`<br/>**Rider**: Omkar Nath (Arriving in 1 min) | **Item**: Cadbury Dairy Milk Roast Almond (36g)<br/>**Total Paid**: ₹79 (Cash on Delivery) |
 
 | Test Scenario | Action Tested | Observed Result |
 | :--- | :--- | :--- |
@@ -212,7 +225,8 @@ Completely restart Claude Desktop. The hammer icon in the bottom-right corner wi
 
 ## Project Documentation
 * 📐 **[System Architecture & Tool Contracts](docs/ARCHITECTURE.md)**: Deep dive into JSON-RPC messages and schema definitions.
-* 🎥 **[Demo Recording Script](docs/DEMO_SCRIPT.md)**: Detailed 6–8 minute screen recording script.
+* 🎙️ **[Concise Demo Presentation Script](docs/DEMO_SCRIPT.md)**: 2–3 minute presentation walkthrough with live proof links.
+* 🎥 **[Live Video Recording (Google Photos)](https://photos.app.goo.gl/LBj8j8BLm8uLY1UD7)**: Screen recording and delivery proof in Google Photos.
 * 📊 **[Interactive Presentation Deck (Gemini)](docs/PRESENTATION_DECK_NOTES.md)**: View the interactive slide deck on [Google Gemini](https://share.gemini.google/2v7A0ewdICO6).
 
 ---
